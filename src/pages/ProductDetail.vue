@@ -25,9 +25,9 @@ export default defineComponent({
     id: {
       immediate: true,
       handler() {
-        getProductDetail(this.id).then(({data}) => {
-          this.detail = data
-        })
+        getProductDetail(this.id).then(({ data }) => {
+          this.detail = data;
+        });
       },
     },
   },

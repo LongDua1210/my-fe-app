@@ -234,12 +234,14 @@ export default {
       });
     };
 
-    const onUpdateProduct = (product) => { // Khi nhan nut update
+    const onUpdateProduct = (product) => {
+      // Khi nhan nut update
       isUpdate.value = true;
       productUpdate.value = product;
     };
 
-    const handleUpdate = () => { // khi nhan nut save
+    const handleUpdate = () => {
+      // khi nhan nut save
       updateProduct(productUpdate.value._id, productUpdate.value).then(() => {
         toast.success("Cập nhật sản phẩm thành công");
         fetchProduct();

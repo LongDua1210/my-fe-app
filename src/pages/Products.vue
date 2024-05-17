@@ -6,12 +6,12 @@
           <span>{{ item.name }}</span>
         </div> -->
       </div>
-      <div class="row equal" v-if="fetching">
+      <!-- <div class="row equal" v-if="fetching">
         <cart-item-skeleton v-for="i in 8" :key="i" />
       </div>
       <div class="row equal" v-else>
         <product-cart v-for="item in products" :key="item.id" :item="item" />
-      </div>
+      </div> -->
     </div>
   </section>
 </template>

@@ -26,9 +26,7 @@ export default defineComponent({
     Products,
     About,
   },
-  computed: {
-   
-  },
+  computed: {},
 });
 </script>
 

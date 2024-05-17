@@ -6,10 +6,9 @@
           <div class="section-heading text-center mb-5">
             <h2 style="font-size: 2.4em">Về chúng tôi</h2>
             <p class="lead">
-              Hoàng Long Fruit là điểm đến hàng đầu cho những người yêu thích
-              hoa quả tươi ngon và chất lượng. Với đa dạng sản phẩm từ các loại
-              trái cây trong và ngoài nước, chúng tôi cam kết mang đến cho khách
-              hàng những trải nghiệm mua sắm thú vị và hài lòng nhất.
+              Hoàng Long Fruit là điểm đến hàng đầu cho những người yêu thích hoa quả tươi ngon và chất lượng. Với đa
+              dạng sản phẩm từ các loại trái cây trong và ngoài nước, chúng tôi cam kết mang đến cho khách hàng những
+              trải nghiệm mua sắm thú vị và hài lòng nhất.
             </p>
           </div>
         </div>

@@ -45,13 +45,11 @@
             <i class="lni lni-star"></i>
           </li>
         </ul>
-
       </div>
     </div>
     <div class="col-lg-8 col-12">
       <div class="single-block">
         <div class="reviews">
- 
           <span v-if="!reviews?.length">Chưa có đánh giá</span>
           <!-- Start Single Review -->
           <!-- <Comment v-for="(review, index) in reviews" :key="index" :review="review" :language="language" /> -->
@@ -65,7 +63,7 @@
 import { defineComponent } from "vue";
 
 export default defineComponent({
-  components: {  },
+  components: {},
 
   props: {
     reviews: {
@@ -91,8 +89,6 @@ export default defineComponent({
     },
   },
 
-  computed: {
-   
-  },
+  computed: {},
 });
 </script>

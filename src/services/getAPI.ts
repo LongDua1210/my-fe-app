@@ -7,7 +7,7 @@ const axiosInstance = axios.create({
   baseURL: base_url,
 });
 
-const getProduct = (params) => {
+const getProduct = (params = {}) => {
   return axiosInstance.get(`${base_url}/api/products`, { params });
 };
 

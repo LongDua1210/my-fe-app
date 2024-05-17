@@ -1,10 +1,7 @@
 <template>
   <section style="padding: 200px 0">
     <div class="container-fluid h-custom">
-      <div
-        class="row d-flex justify-content-center align-items-center"
-        style=""
-      >
+      <div class="row d-flex justify-content-center align-items-center" style="">
         <div class="col-md-9 col-lg-6 col-xl-5">
           <img
             src="https://mdbcdn.b-cdn.net/img/Photos/new-templates/bootstrap-login-form/draw2.webp"
@@ -14,9 +11,7 @@
         </div>
         <div class="col-md-8 col-lg-6 col-xl-4 offset-xl-1">
           <form>
-            <div
-              class="d-flex flex-row align-items-center justify-content-center justify-content-lg-start"
-            >
+            <div class="d-flex flex-row align-items-center justify-content-center justify-content-lg-start">
               <p class="lead fw-normal mb-0 mr-3">Sign in with</p>
               <button type="button" class="btn btn-primary btn-floating mx-1">
                 <i class="fa fa-facebook" aria-hidden="true"></i>
@@ -80,9 +75,7 @@
               <p class="fw-bold mt-5 pt-1 mb-0">
                 Về trang
 
-                <router-link to="/login" class="text-primary"
-                  >Đăng nhập</router-link
-                >
+                <router-link to="/login" class="text-primary">Đăng nhập</router-link>
               </p>
             </div>
           </form>

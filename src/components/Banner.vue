@@ -29,7 +29,6 @@
         <div class="col-md-6 col-lg-5">
           <div class="hero-animation-img">
             <img class="img-fluid d-block animation-one" src="/public/img/banner.png" alt="animation image" />
-      
           </div>
         </div>
       </div>
